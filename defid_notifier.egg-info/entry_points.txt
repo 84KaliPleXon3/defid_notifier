@@ -1,3 +1,0 @@
-[console_scripts]
-defid_notifier = defid_notifier:main
-
