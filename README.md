@@ -1,2 +1,30 @@
-# defid_notifier
-Defacer.ID mass notifier.
+# defid_notifier: Defacer.ID Mass Notifier
+defid_notifier is a simple tool used to notify a lot of defacement at once. defid_notifier is running on Python 2.7.
+# Installing
+You can install defid_notifier by cloning this repository or install it from PyPi.
+```pip install defid_notfier```
+# Usage
+```usage: defid_notifier [-h] [--filter] [--verbose] [--timeout TIMEOUT]
+                      [--start-at STARTAT] [--end-when ENDWHEN] [--turbo]
+                      websites_list nick team
+
+defid_notifier is a tool used to notify a lot of defacement at once (mass) to
+Defacer.ID (https://defacer.id/).
+
+positional arguments:
+  websites_list       path to websites list
+  nick                nick to be notified
+  team                team to be notified
+
+optional arguments:
+  -h, --help          show this help message and exit
+  --filter            show only successful notification
+  --verbose           increase the verbosity (include response from server)
+  --timeout TIMEOUT   set how long client waits for response (default: 60)
+  --start-at STARTAT  set notifier's start point (line number)
+  --end-when ENDWHEN  set maximum website to be notified from the start point
+  --turbo             use TURBO mode, this mode uses same number of thread as
+                      the number of website in websites list. Warning! TURBO
+                      mode will consume a lot of memory depending on number of
+                      threads. It is recommended to just set website limit.
+```
