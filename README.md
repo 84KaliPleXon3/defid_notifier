@@ -1,8 +1,10 @@
 # defid_notifier: Defacer.ID Mass Notifier
+[![Python 2.6|2.7](https://img.shields.io/badge/python-2.6|2.7-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/p4kl0nc4t/defid_notifier/master/LICENSE)
+
 defid_notifier is a simple tool used to notify a lot of defacement at once. defid_notifier is running on Python 2.7.
-# Installing.
+## Installing.
 You can install defid_notifier by cloning this repository or install it from PyPi by issuing `pip install defid_notfier`.
-# Usage
+## Usage
 ```
 usage: defid_notifier [-h] [--filter] [--verbose] [--timeout TIMEOUT]
                       [--start-at STARTAT] [--end-when ENDWHEN] [--turbo]
@@ -28,7 +30,7 @@ optional arguments:
                       mode will consume a lot of memory depending on number of
                       threads. It is recommended to just set website limit.
 ```
-# Turbo Mode
+## Turbo Mode
 Turbo mode is using low level threading library "thread". Amount of thread depends on how much websites in your websites list. This mode is still buggy because of forever loop at the end. I will fix it as soon as possible.
-# NodeJS Dependency
+## NodeJS Dependency
 Hence defid_notifier is using cfscrape, NodeJS is required to run javascript code. On most debian system, you can install it by running ```apt-get install nodejs```.
