@@ -30,3 +30,5 @@ optional arguments:
 ```
 # Turbo Mode
 Turbo mode is using low level threading library "thread". Amount of thread depends on how much websites in your websites list. This mode is still buggy because of forever loop at the end. I will fix it as soon as possible.
+# NodeJS Dependency
+Hence defid_notifier is using cfscrape, NodeJS is required to run javascript code. On most debian system, you can install it by running ```apt-get install nodejs```.
