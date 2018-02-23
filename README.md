@@ -2,7 +2,7 @@
 [![Python 2.6|2.7](https://img.shields.io/badge/python-2.6|2.7-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv3-red.svg)](https://raw.githubusercontent.com/p4kl0nc4t/defid_notifier/master/LICENSE)
 
 defid_notifier is a simple tool used to notify a lot of defacement at once. defid_notifier is running on Python 2.7.
-## Installing.
+## Installing
 You can install defid_notifier by cloning this repository or install it from PyPi by issuing `pip install defid_notfier`.
 ## Usage
 ```
