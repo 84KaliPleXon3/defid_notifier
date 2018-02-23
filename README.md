@@ -1,5 +1,5 @@
 # defid_notifier: Defacer.ID Mass Notifier
-[![Python 2.6|2.7](https://img.shields.io/badge/python-2.6|2.7-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/p4kl0nc4t/defid_notifier/master/LICENSE)
+[![Python 2.6|2.7](https://img.shields.io/badge/python-2.6|2.7-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv3-red.svg)](https://raw.githubusercontent.com/p4kl0nc4t/defid_notifier/master/LICENSE)
 
 defid_notifier is a simple tool used to notify a lot of defacement at once. defid_notifier is running on Python 2.7.
 ## Installing.
